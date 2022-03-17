@@ -5,4 +5,8 @@ function learnmoreFunc(){
     alert("Sorry, we are not ready yet! Please wait for further updates!");
 }
 
-learnmore_btn.addEventListener("click", learnmoreFunc);
+function events() {
+    learnmore_btn.addEventListener("click", learnmoreFunc);
+}
+
+events();
